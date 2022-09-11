@@ -114,3 +114,10 @@ fieldset.row .form-floating>label {
         grid-row: 3;
     }
 }
+
+.col-12.col-md-4.text-center,
+.text-decoration-none {
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffff;
+}

@@ -80,7 +80,7 @@ fieldset.row .form-floating>label {
     animation: slideUp 0.5s forwards;
 }
 
-p {
+.cookies-poopup {
     font-size: larger;
     font-style: italic;
     font-size: 160%;

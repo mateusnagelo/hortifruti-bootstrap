@@ -1,6 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Poppins|Kaushan+Script");
 body {
     min-width: 372px;
 }
+
+
+/* init logo  */
+
+b {
+    font-family: 'Kaushan Script';
+    transform: rotate(-5deg);
+    font-size: 2.2rem;
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-transform: lowercase;
+}
+
+b:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+
+/* the end logo  */
+
+
+/* init navbar  */
+
+a.nav-link.text-white {
+    font-family: cursive;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+a.nav-link.text-white:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+
+/* the end navbar  */
 
 .wrapper {
     min-height: 100vh;
@@ -138,3 +175,6 @@ span {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffff;
 }
+
+
+/* the end footer  */

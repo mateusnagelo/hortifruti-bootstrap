@@ -6,11 +6,10 @@ body {
 
 /* init logo  */
 
-b {
+b.init {
     font-family: 'Kaushan Script';
     transform: rotate(-5deg);
     font-size: 2.2rem;
-    color: whitesmoke;
     text-transform: uppercase;
     text-transform: lowercase;
 }

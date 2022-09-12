@@ -85,7 +85,7 @@ fieldset.row .form-floating>label {
     font-style: italic;
     font-size: 160%;
     color: rgb(160, 157, 157);
-    background-color: beige;
+    /* background-color: beige; */
 }
 
 span {

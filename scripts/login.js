@@ -1,3 +1,4 @@
+// init validação do usuario e senha 
 function logar() {
 
     var txtEmail = document.getElementById('txtEmail').value;
@@ -28,3 +29,4 @@ document.addEventListener("keypress", function(e) {
     }
 
 });
+// the end validação do usuario e senha

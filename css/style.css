@@ -3,6 +3,11 @@ body {
     min-width: 372px;
 }
 
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 
 /* init logo  */
 
@@ -202,3 +207,17 @@ span {
     display: inline-block;
     font-size: .9rem;
 } */
+
+
+/* init footer-ma */
+
+div.footer-ma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    padding: 1rem;
+}
+
+
+/* the end footer-ma */

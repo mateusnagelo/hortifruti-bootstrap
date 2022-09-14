@@ -8,6 +8,15 @@ body {
     margin: 0px;
 }
 
+.card-text.truncar-3l {
+    font-style: normal;
+}
+
+.card-title {
+    font-family: roboto;
+    font-weight: bolder;
+}
+
 
 /* init logo  */
 

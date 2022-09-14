@@ -217,7 +217,7 @@ div.footer-ma {
     align-items: center;
     font-size: larger;
     padding: 1.5rem;
-    background-color: red;
+    background-color: #dc3545;
     position: relative;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -232,13 +232,36 @@ div.footer-ma {
 
 .text-decoration-none {
     font-size: .90rem;
+    font-weight: bold
 }
 
 #columun-footer {
-    background-color: red;
+    background-color: #dc3545;
 }
 
 .col-12.col-md-4.text-center {
     font-size: .90rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold
 }
+
+
+/* button voltar ao topo  */
+
+
+/* #back-to-top {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    border-radius: .6rem;
+    padding: 1rem;
+    display: block;
+    cursor: pointer; */
+
+
+/* transform: rotate(-10deg); */
+
+
+/* the end button topo  */

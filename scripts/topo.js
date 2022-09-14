@@ -1,5 +1,19 @@
-var btn = document.querySelector("#back-to-top");
+// FUNCAO PARA QUE A BARRA DE ROLAGEM VOLTE PARA A POSICAO 0 NO EIXO Y.
 
-btn.addEventListener("click", function() {
-    window.scrollTo(0, 0);
-});
+function scrollBar() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    });
+}
+
+// FUNCAO QUE PARA FAZER COM QUE O BOTAO SUMA QUANDO A POSICAO Y DO SCROLL ESTIVER EM 0
+
+function controlarBotao() {
+    if (window.scrollY === 0) {
+        document.querySelector("#back-to-top").style.display = 'none';
+    } else {
+        document.querySelector("#back-to-top").style.display = 'block';
+    }
+}
+window.addEventListener("scroll", controlarBotao);

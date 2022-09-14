@@ -248,8 +248,7 @@ div.footer-ma {
 
 /* button voltar ao topo  */
 
-
-/* #back-to-top {
+#back-to-top {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     position: fixed;
@@ -258,10 +257,9 @@ div.footer-ma {
     border-radius: .6rem;
     padding: 1rem;
     display: block;
-    cursor: pointer; */
-
-
-/* transform: rotate(-10deg); */
+    cursor: pointer;
+    color: #ffff;
+}
 
 
 /* the end button topo  */

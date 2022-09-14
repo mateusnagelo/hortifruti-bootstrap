@@ -216,8 +216,29 @@ div.footer-ma {
     justify-content: center;
     align-items: center;
     font-size: larger;
-    padding: 1rem;
+    padding: 1.5rem;
+    background-color: red;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 /* the end footer-ma */
+
+.imgsvg {
+    position: relative;
+    left: 0;
+}
+
+.text-decoration-none {
+    font-size: .90rem;
+}
+
+#columun-footer {
+    background-color: red;
+}
+
+.col-12.col-md-4.text-center {
+    font-size: .90rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

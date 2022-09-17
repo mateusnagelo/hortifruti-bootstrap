@@ -272,3 +272,20 @@ div.footer-ma {
 
 
 /* the end button topo  */
+
+
+/* head img svg  */
+
+#nav-svg-position {
+    background-color: #dc3545;
+    display: flex;
+}
+
+
+/* .imgsvg-head {
+    position: relative;
+} */
+
+#form-dados-pessoais {
+    font-family: roboto;
+}

@@ -1,3 +1,20 @@
+<img src="./img/site.png">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Loja Virtual "Sacolão Avenida" com Bootstrap 5
 
 
@@ -26,4 +43,4 @@ Um grande abraço!
  link do site https://mateusnagelo.github.io/hortifruti-bootstrap/
 
 
- <img src="./img/site.png">
+ 

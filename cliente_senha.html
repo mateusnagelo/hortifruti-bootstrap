@@ -90,23 +90,25 @@
                         </div>
                     </div>
                     <div class="col-8">
-                        <form class="col-sm-12 col-md-8 col-lg-6">
-                            <div class="form-floating mb-3">
-                                <input type="password" id="txtSenhaAtual" class="form-control" placeholder=" " autofocus>
-                                <label for="txtSenhaAtual">Digite aqui sua senha atual</label>
-                            </div>
+                        <form class="form">
+                            <div class="col-sm-12 col-md-8 col-lg-6">
+                                <div class="form-floating mb-3">
+                                    <label for="password">Digite aqui sua senha atual</label>
+                                    <input type="password" id="password" name="password" class="form-control" placeholder=" " autofocus>
+                                </div>
 
-                            <div class="form-floating mb-3">
-                                <input type="password" id="txtSenha" class="form-control" placeholder=" ">
-                                <label for="txtSenha">Digite aqui sua nova senha</label>
-                            </div>
+                                <div class="form-floating mb-3">
+                                    <label for="passwordtwo">Digite aqui sua nova senha</label>
+                                    <input type="password" id="passwordtwo" name="passwordtwo" class="form-control" placeholder=" ">
+                                </div>
 
-                            <div class="form-floating mb-3">
-                                <input type="password" id="txtConfSenha" class="form-control" placeholder=" ">
-                                <label for="txtConfSenha">Redigite aqui a nova senha</label>
-                            </div>
+                                <div class="form-floating mb-3">
+                                    <label for="passwordthree">Redigite aqui a nova senha</label>
+                                    <input type="password" id="passwordthree" name="passwordthree" class="form-control" placeholder=" ">
+                                </div>
 
-                            <button type="button" onclick="window.location.href='/confirmcadastrosenha.html'" class="btn btn-lg btn-danger">Alterar Senha</button>
+                                <button type="submit" name="submit" class="btn btn-lg btn-danger">Alterar Senha</button>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -172,9 +174,10 @@
     </div>
 
     <!-- the end button topo  -->
-
+    <script src="./scripts/novasenha.js"></script>
     <script src="./scripts/topo.js"></script>
     <script src="./js/bootstrap.bundle.js"></script>
+
 </body>
 
 </html>

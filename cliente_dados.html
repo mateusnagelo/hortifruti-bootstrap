@@ -90,23 +90,26 @@
                         </div>
                     </div>
                     <div class="col-8">
-                        <form action="">
+                        <form action="" id="form-contato">
                             <div class="form-floating mb-3">
-                                <input class="form-control" type="text" id="txtNome" placeholder=" " autofocus />
-                                <label for="txtNome">Nome</label>
+                                <input class="form-control" type="text" name="nome" id="nome" placeholder=" Mateus Angelo " autofocus />
+                                <label for="nome">Nome</label>
                             </div>
                             <div class="form-floating mb-3 col-md-6 col-xl-4">
                                 <input class="form-control" type="text" name="cpf" id="cpf" />
-                                <label for="txtCPF">CPF</label>
+                                <label for="cpf">CPF</label>
                             </div>
                             <div class="form-floating mb-3 col-md-6 col-xl-4">
-                                <input class="form-control" type="date" name="dataNascimento" />
-                                <label for="txtDataNascimento">Data de Nascimento</label>
+                                <input class="form-control" type="date" name="data" id="data" />
+                                <label for="data">Data de Nascimento</label>
                             </div>
 
-                            <button type="button" onclick="logar()" id="send" class="btn btn-lg btn-success">Confirmar</button>
-                            <button type="button" onclick="logar()" id="send" class="btn btn-lg btn-danger">Alterar</button>
+                            <button type="submit" class="btn btn-lg btn-success">Confirmar</button>
+                            <button type="submit" class="btn btn-lg btn-danger">Alterar</button>
                             </button>
+                            <div class="alert alert-danger d-none">
+                                Preencha o campo <span id="campo-erro"></span>!
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -171,16 +174,19 @@
         <i class="bi bi-arrow-up-circle" id="back-to-top" onclick="scrollBar()" style="font-size: 35px; line-height: 50px;"></i>
     </div>
 
-    <!-- the end button topo  -->
 
-    <script src="./scripts/topo.js"></script>
-    <script src="./js/bootstrap.bundle.js"></script>
 
     <!-- masck cpf  -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.mask.min.js"></script>
     <script src="./scripts/validcpf.js"></script>
+    <script src="./scripts/cliente_dados.js"></script>
+    <!-- the end button topo  -->
+    <script src="./scripts/topo.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+
+
 
 </body>
 

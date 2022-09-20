@@ -18,7 +18,7 @@ $('#form-contato').submit(function() {
         return false;
     }
 
-    if (cpf.val() == '') {
+    if (email.val() == '') {
         erro.removeClass('d-none');
         campo.html('cpf'); // nome do campo que não foi preenchido!
         cpf.focus();

@@ -2,6 +2,12 @@ $('#form-contato').submit(function() {
     var nome = $('#nome');
     var cpf = $('#cpf');
     var data = $('#data');
+    var numero = $('#numero')
+    var complemento = $('#complemento')
+    var referencia = $('#referencia')
+    var senha = $('#senha')
+    var confirmacaosenha = $('#confirmacaosenha')
+
     var erro = $('.alert');
     var campo = $('#campo-erro');
 
@@ -18,7 +24,7 @@ $('#form-contato').submit(function() {
         return false;
     }
 
-    if (email.val() == '') {
+    if (cpf.val() == '') {
         erro.removeClass('d-none');
         campo.html('cpf'); // nome do campo que não foi preenchido!
         cpf.focus();
@@ -32,6 +38,15 @@ $('#form-contato').submit(function() {
         campo.html('data'); // nome do campo que não foi preenchido!
         data.focus();
         data.addClass('is-invalid');
+        return false;
+    }
+
+
+    if (numero.val() == '') {
+        erro.removeClass('d-none');
+        campo.html('data'); // nome do campo que não foi preenchido!
+        numero.focus();
+        numero.addClass('is-invalid');
         return false;
     }
 

@@ -15,13 +15,13 @@ $('#form-contato').submit(function() {
     var campo = $('#campo-erro');
 
     // removendo o elemento da tela sempre que tentar submeter o formulario
-    erro.addClass('d-none');
+    erro.addClass('d-one');
     $('.is-invalid').removeClass('is-invalid');
 
     // valida o campo nome
     if (nome.val() == '') {
         erro.removeClass('d-none');
-        campo.html('nome'); // nome do campo que não foi preenchido!
+        campo.html('Nome'); // nome do campo que não foi preenchido!
         nome.focus();
         nome.addClass('is-invalid');
         return false;
@@ -29,7 +29,7 @@ $('#form-contato').submit(function() {
 
     if (cpf.val() == '') {
         erro.removeClass('d-none');
-        campo.html('cpf'); // nome do campo que não foi preenchido!
+        campo.html('CPF'); // nome do campo que não foi preenchido!
         cpf.focus();
         cpf.addClass('is-invalid');
         return false;
@@ -38,14 +38,14 @@ $('#form-contato').submit(function() {
     // valida o campo mensagem
     if (data.val() == '') {
         erro.removeClass('d-none');
-        campo.html('data'); // nome do campo que não foi preenchido!
+        campo.html('Data'); // nome do campo que não foi preenchido!
         data.focus();
         data.addClass('is-invalid');
         return false;
     }
     if (email.val() == '') {
         erro.removeClass('d-none');
-        campo.html('email'); // nome do campo que não foi preenchido!
+        campo.html('E-mail'); // nome do campo que não foi preenchido!
         email.focus();
         email.addClass('is-invalid');
         return false;
@@ -54,14 +54,14 @@ $('#form-contato').submit(function() {
 
     if (telefone.val() == '') {
         erro.removeClass('d-none');
-        campo.html('telefone'); // nome do campo que não foi preenchido!
+        campo.html('Telefone'); // nome do campo que não foi preenchido!
         telefone.focus();
         telefone.addClass('is-invalid');
         return false;
     }
     if (cep.val() == '') {
         erro.removeClass('d-none');
-        campo.html('cep'); // nome do campo que não foi preenchido!
+        campo.html('Cep'); // nome do campo que não foi preenchido!
         cep.focus();
         cep.addClass('is-invalid');
         return false;
@@ -69,7 +69,7 @@ $('#form-contato').submit(function() {
 
     if (numero.val() == '') {
         erro.removeClass('d-none');
-        campo.html('numero'); // nome do campo que não foi preenchido!
+        campo.html('Numero'); // nome do campo que não foi preenchido!
         numero.focus();
         numero.addClass('is-invalid');
         return false;
@@ -77,7 +77,7 @@ $('#form-contato').submit(function() {
 
     if (complemento.val() == '') {
         erro.removeClass('d-none');
-        campo.html('complemeto'); // nome do campo que não foi preenchido!
+        campo.html('Complemeto'); // nome do campo que não foi preenchido!
         complemento.focus();
         complemento.addClass('is-invalid');
         return false;
@@ -85,7 +85,7 @@ $('#form-contato').submit(function() {
 
     if (referencia.val() == '') {
         erro.removeClass('d-none');
-        campo.html('referencia'); // nome do campo que não foi preenchido!
+        campo.html('Referencia'); // nome do campo que não foi preenchido!
         referencia.focus();
         referencia.addClass('is-invalid');
         return false;
@@ -93,7 +93,7 @@ $('#form-contato').submit(function() {
 
     if (senha.val() == '') {
         erro.removeClass('d-none');
-        campo.html('senha'); // nome do campo que não foi preenchido!
+        campo.html('Senha'); // nome do campo que não foi preenchido!
         senha.focus();
         senha.addClass('is-invalid');
         return false;
@@ -101,7 +101,7 @@ $('#form-contato').submit(function() {
 
     if (confirmacaosenha.val() == '') {
         erro.removeClass('d-none');
-        campo.html('confirmcaosenha'); // nome do campo que não foi preenchido!
+        campo.html('Confirmacão da senhas'); // nome do campo que não foi preenchido!
         confirmacaosenha.focus();
         confirmacaosenha.addClass('is-invalid');
         return false;

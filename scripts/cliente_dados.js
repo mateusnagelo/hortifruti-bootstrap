@@ -2,12 +2,6 @@ $('#form-contato').submit(function() {
     var nome = $('#nome');
     var cpf = $('#cpf');
     var data = $('#data');
-    var numero = $('#numero')
-    var complemento = $('#complemento')
-    var referencia = $('#referencia')
-    var senha = $('#senha')
-    var confirmacaosenha = $('#confirmacaosenha')
-
     var erro = $('.alert');
     var campo = $('#campo-erro');
 
@@ -18,7 +12,7 @@ $('#form-contato').submit(function() {
     // valida o campo nome
     if (nome.val() == '') {
         erro.removeClass('d-none');
-        campo.html('nome'); // nome do campo que não foi preenchido!
+        campo.html('Nome'); // nome do campo que não foi preenchido!
         nome.focus();
         nome.addClass('is-invalid');
         return false;
@@ -26,7 +20,7 @@ $('#form-contato').submit(function() {
 
     if (cpf.val() == '') {
         erro.removeClass('d-none');
-        campo.html('cpf'); // nome do campo que não foi preenchido!
+        campo.html('CPF'); // nome do campo que não foi preenchido!
         cpf.focus();
         cpf.addClass('is-invalid');
         return false;
@@ -35,18 +29,9 @@ $('#form-contato').submit(function() {
     // valida o campo mensagem
     if (data.val() == '') {
         erro.removeClass('d-none');
-        campo.html('data'); // nome do campo que não foi preenchido!
+        campo.html('Data'); // nome do campo que não foi preenchido!
         data.focus();
         data.addClass('is-invalid');
-        return false;
-    }
-
-
-    if (numero.val() == '') {
-        erro.removeClass('d-none');
-        campo.html('data'); // nome do campo que não foi preenchido!
-        numero.focus();
-        numero.addClass('is-invalid');
         return false;
     }
 

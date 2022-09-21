@@ -44,3 +44,27 @@ $('#form-cartao').submit(function() {
 
     return true;
 });
+
+// mask dos campos
+
+// $("#nome").mask("mateus angelo gomes silva")
+$("#numero").mask("0000.0000.0000.0000")
+$("#validade").mask("00/00")
+$("#codigo").mask("000")
+$("#rg").mask("999.999.999-W", {
+    translation: {
+        'W': {
+            pattern: /[X0-9]/
+        }
+    },
+    reverse: true
+})
+
+var options = {
+    translation: {
+        'A': { pattern: /[A-Z]/ },
+        'a': { pattern: /[a-zA-Z]/ },
+        'S': { pattern: /[a-zA-Z0-9]/ },
+        'L': { pattern: /[a-z]/ },
+    }
+}

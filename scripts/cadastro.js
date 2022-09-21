@@ -113,3 +113,27 @@ $('#form-contato').submit(function() {
     // se chegar aqui pode enviar os dados!
     return true;
 });
+
+//  mask dos campos
+
+$("#cpf").mask("000.000.000-00")
+$("#telefone").mask("(00) 00000-0000")
+$("#cep").mask("00.000-000")
+$("#data").mask("00/00/0000")
+$("#rg").mask("999.999.999-W", {
+    translation: {
+        'W': {
+            pattern: /[X0-9]/
+        }
+    },
+    reverse: true
+})
+
+var options = {
+    translation: {
+        'A': { pattern: /[A-Z]/ },
+        'a': { pattern: /[a-zA-Z]/ },
+        'S': { pattern: /[a-zA-Z0-9]/ },
+        'L': { pattern: /[a-z]/ },
+    }
+}

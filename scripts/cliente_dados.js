@@ -38,3 +38,20 @@ $('#form-contato').submit(function() {
     // se chegar aqui pode enviar os dados!
     return true;
 });
+
+
+// atribuindo value nos inputs
+
+
+// let str = "value";
+
+// ['#nome', '#cpf', '#data'].forEach(function(v, i) {
+//     document.getElementById(v).value = (i < str.length) ? str[i] : "";
+// });
+// for (let i = 0; i < str.length; i++) {
+//     var input = document.createElement("input");
+//     input.type = "text", "data";
+//     input.id = "campo" + (i + 1);
+//     input.value = str.charAt(i);
+//     div.appendChild(input);
+// }

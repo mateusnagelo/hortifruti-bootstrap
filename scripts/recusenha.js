@@ -9,7 +9,7 @@ $('#form-contato').submit(function() {
 
     if (email.val() == '') {
         erro.removeClass('d-none');
-        campo.html('email'); // nome do campo que não foi preenchido!
+        campo.html('email');
         email.focus();
         email.addClass('is-invalid');
         return false;
@@ -17,7 +17,7 @@ $('#form-contato').submit(function() {
 
     if (cpf.val() == '') {
         erro.removeClass('d-none');
-        campo.html('CPF'); // nome do campo que não foi preenchido!
+        campo.html('CPF');
         cpf.focus();
         cpf.addClass('is-invalid');
         return false;

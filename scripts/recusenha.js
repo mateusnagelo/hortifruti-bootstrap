@@ -24,3 +24,7 @@ $('#form-contato').submit(function() {
     }
     return true;
 });
+
+
+
+// Desenvolvido por Mateus Ângelo
